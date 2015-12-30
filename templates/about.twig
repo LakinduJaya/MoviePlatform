@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Want to learn more about us and what we do? Check this page out.">
+		<title>MoviePlatform | About Us</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:700|Nunito:700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="classySocial/css/jquery.classysocial.min.css" />
+		<link rel="stylesheet" href="slickNav/dist/slicknav.css" />
+	</head>
+	<body>
+		<div id="main-wrapper">
+			<header class="main-header">
+				<a href="{{ baseUrl() }}" id="main-logo">
+					<h1>MoviePlatform</h1>
+					<h2 id="sub-logo">World's Premier Movie Publication</h2>
+				</a>
+				<form action="index.html" method="get" class="search">
+					<input type="text" name="search_field" placeholder="Search" class="sf">
+					<input type="image" value="Search" src="img/search.png" class="sb">
+				</form>
+				<nav>
+					<ul class="main-nav" id="menu">
+						<li><a href="{{ baseUrl() }}">Home</a></li>
+						<li><a href="{{ siteUrl('/latest-movies') }}">Latest</a></li>
+						<li><a href="{{ siteUrl('/popular-movies') }}">Popular</a></li>
+						<li><a href="{{ siteUrl('/tv-series') }}">TV Series</a></li>
+						<li><a href="{{ siteUrl('/trailers') }}">Trailers</a></li>
+						<li><a href="{{ siteUrl('/upcoming') }}">Upcoming</a></li>
+						<li><a href="{{ siteUrl('/gallery') }}">Gallery</a></li>
+						<li><a href="{{ siteUrl('/about') }}" class="selected">About</a></li>
+						<li><a href="{{ siteUrl('/contact') }}">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+			<section>
+				<div class="about_us">
+					<h2>ABOUT US</h2>
+					<p>MoviePlatform is a movie publication website. We provide high quality movies with clear sound. No signup or any kind of payment required, you can watch any movie for free. We are still new to the industry but we will continue to grow and improve our website along the way. No annoying ads. We update the site daily therefore all the latest releases will be added immediately. We also provide a list of upcoming movies along with some other information. Please support us by sharing this website with your friends and family. Let them know about us, thanks for visiting.</p>
+					<h3>What makes us different</h3>
+					<ul>
+						<li>Free movies and TV series.</li>
+						<li>High quality movies with crystal clear sound.</li>
+						<li>No Sign Up required.</li>
+						<li>No annoying ads or popups.</li>
+						<li>No special software or plugin required to watch the movie.</li>
+						<li>Daily updates.</li>
+					</ul>
+				</div>
+				<div class="about_author">
+					<h2>ABOUT AUTHOR</h2>
+					<p>Hey guys. My name is Lakindu Jayathilaka and I am the owner of this website. I am a web developer and a proud student of <a href="www.teamtreehouse.com">TeamTreeHouse</a>. I am 17 years old and my goal is to beat Bill Gates. I enjoy listening to music when I'm free. If you want, you can contact me on <a href="https://www.facebook.com/lakistealthhacker">Facebook</a> or <a href="https://twitter.com/lakindu_jaya">Twitter</a>.</p>
+					<img src="img/lakindu.jpg" alt="Lakindu Jayathilaka" class="author_pic">
+				</div>
+				
+			</section>
+			<footer class="main-footer">
+				<p>Connect with us</p>
+				<div class="classysocial bubble" data-arc-length="360" data-image-type="picture" data-picture="img/share_icon.png" data-facebook-handle="lakistealthhacker" data-twitter-handle="lakindu_jaya" data-email-handle="lakindu1.jayathilaka@gmail.com" data-skype-handle="lakindu_jayathilaka" data-instagram-handle="lakindu_jaya" data-pinterest-handle="lakindu_jaya" data-youtube-handle="movieplatform" data-networks="facebook,twitter,email,skype,instagram,pinterest,youtube">
+				</div>
+				<h1>MoviePlatform</h1>
+				<p>World's Premier Movie Publication</p>
+				<p>&copy; 2015 MoviePlatform. All Rights Reserved.</p>
+				<p>All of the free movies found on this website are hosted on third-party servers that are freely available to watch online for all internet users. Any legal issues regarding the free online movies on this website should be taken up with the actual file hosts themselves, as we're not affiliated with them.</p>
+			</footer>
+		</div>
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="classySocial/js/jquery.classysocial.min.js"></script>
+		<script src="slickNav/dist/jquery.slicknav.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>

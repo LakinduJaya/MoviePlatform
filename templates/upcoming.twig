@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="MoviePlatform - Interested to know what movie is getting released next? Here you can get a detailed list of all upcoming movies including the movie name, genre, duration, director and release date. Check it out!">
+		<meta name="keywords" content="upcoming, movies, 2015">
+		<title>MoviePlatform | Upcoming Movies</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:700|Nunito:700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="classySocial/css/jquery.classysocial.min.css" />
+		<link rel="stylesheet" href="slickNav/dist/slicknav.css" />
+	</head>
+	<body>
+		<div id="main-wrapper">
+			<header class="main-header">
+				<a href="{{ baseUrl() }}" id="main-logo">
+					<h1>MoviePlatform</h1>
+					<h2 id="sub-logo">World's Premier Movie Publication</h2>
+				</a>
+				<form action="index.html" method="get" class="search">
+					<input type="text" name="search_field" placeholder="Search" class="sf">
+					<input type="image" value="Search" src="img/search.png" class="sb">
+				</form>
+				<nav>
+					<ul class="main-nav" id="menu">
+						<li><a href="{{ baseUrl() }}">Home</a></li>
+						<li><a href="{{ siteUrl('/latest-movies') }}">Latest</a></li>
+						<li><a href="{{ siteUrl('/popular-movies') }}">Popular</a></li>
+						<li><a href="{{ siteUrl('/tv-series') }}">TV Series</a></li>
+						<li><a href="{{ siteUrl('/trailers') }}">Trailers</a></li>
+						<li><a href="{{ siteUrl('/upcoming') }}" class="selected">Upcoming</a></li>
+						<li><a href="{{ siteUrl('/gallery') }}">Gallery</a></li>
+						<li><a href="{{ siteUrl('/about') }}">About</a></li>
+						<li><a href="{{ siteUrl('/contact') }}">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+			<section>
+				<table>
+					<caption>Upcoming Movies 2015/2016</caption>
+					<thead>
+						<tr>
+							<th scope="col">Movie</th>
+							<th scope="col">Genre</th>
+							<th scope="col">Duration</th>							
+							<th scope="col">Director</th>
+							<th scope="col">Release Date</th>
+						</tr>
+					</thead>
+					<tfoot>
+						<tr>
+							<td colspan="5">Data is updated every 15 minutes.</td>
+						</tr>
+					</tfoot>
+					<tbody>
+						<tr>
+							<th scope="row">Star Wars: The Force Awakens</th>
+							<td>Action | Adventure</td>
+							<td>135 min</td>
+							<td>J.J. Abrams</td>
+							<td>December 18th 2015</td>
+						</tr>
+						<tr>
+							<th scope="row">Sisters</th>
+							<td>Comedy</td>		
+							<td>118 min</td>							
+							<td>Jason Moore</td>
+							<td>December 18th 2015</td>
+						</tr>
+						<tr>
+							<th scope="row">Alvin and the Chipmunks: The Road Chip</th>
+							<td>Adventure | Comedy</td>		
+							<td>86 min</td>							
+							<td>Walt Becker</td>
+							<td>December 18th 2015</td>
+						</tr>
+						<tr>
+							<th scope="row">Son of Saul</th>
+							<td>Horror | Thriller</td>		
+							<td>107 min</td>							
+							<td>László Nemes</td>
+							<td>December 18th 2015</td>
+						</tr>
+						<tr>
+							<th scope="row">Extraction</th>
+							<td>Thriller</td>		
+							<td>83 min</td>							
+							<td>Steven C. Miller</td>
+							<td>December 18th 2015</td>
+						</tr>
+						<tr>
+							<th scope="row">The Hateful Eight</th>
+							<td>Western</td>
+							<td>182 min</td>
+							<td>Quentin Tarantino</td>
+							<td>December 25th 2015</td>
+						</tr>
+						<tr>
+							<th scope="row">Joy</th>
+							<td>Comedy | Drama</td>
+							<td>124 min</td>
+							<td>David O. Russell</td>
+							<td>December 25th 2015</td>
+						</tr>
+						<tr>
+							<th scope="row">Point Break</th>
+							<td>Action | Crime</td>
+							<td>113 min</td>
+							<td>Ericson Core</td>
+							<td>December 25th 2015</td>
+						</tr>
+						<tr>
+							<th scope="row">Daddy's Home</th>
+							<td>Comedy</td>	
+							<td>96 min</td>							
+							<td>Sean Anders</td>
+							<td>December 25th 2015</td>
+						</tr>
+						<tr>
+							<th scope="row">The Revenant</th>
+							<td>Adventure | Western</td>
+							<td>156 min</td>
+							<td>Alejandro González</td>
+							<td>January 8th 2016</td>
+						</tr>
+						<tr>
+							<th scope="row">The Forest</th>
+							<td>Horror</td>
+							<td></td>
+							<td>Jason Zada</td>
+							<td>January 8th 2016</td>
+						</tr>
+						<tr>
+							<th scope="row">Ride Along 2</th>
+							<td>Action | Comedy</td>
+							<td></td>
+							<td>Tim Story</td>
+							<td>January 15th 2016</td>
+						</tr>
+						<tr>
+							<th scope="row">The 5th Wave</th>
+							<td>Adventure | Thriller</td>
+							<td></td>
+							<td>J Blakeson</td>
+							<td>January 15th 2016</td>
+						</tr>
+						<tr>
+							<th scope="row">Dirty Grandpa</th>
+							<td>Comedy</td>
+							<td>102 min</td>
+							<td>Dan Mazer</td>
+							<td>January 22nd 2016</td>
+						</tr>
+						<tr>
+							<th scope="row">The Boy</th>
+							<td>Horror | Thriller</td>
+							<td></td>
+							<td>William Brent</td>
+							<td>January 22nd 2016</td>
+						</tr>
+						<tr>
+							<th scope="row">The Finest Hours</th>
+							<td>Drama | Thriller</td>
+							<td></td>
+							<td>Craig Gillespie</td>
+							<td>January 29th 2016</td>
+						</tr>
+						<tr>
+							<th scope="row">Kung Fu Panda 3</th>
+							<td>Animation | Action</td>
+							<td></td>
+							<td>Alessandro Carloni</td>
+							<td>January 29th 2016</td>
+						</tr>
+						<tr>
+							<th scope="row">Risen</th>
+							<td>Action | Adventure</td>
+							<td>107 min</td>
+							<td>Kevin Reynolds</td>
+							<td>February 19th 2016</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+			<footer class="main-footer">
+				<p>Connect with us</p>
+				<div class="classysocial bubble" data-arc-length="360" data-image-type="picture" data-picture="img/share_icon.png" data-facebook-handle="lakistealthhacker" data-twitter-handle="lakindu_jaya" data-email-handle="lakindu1.jayathilaka@gmail.com" data-skype-handle="lakindu_jayathilaka" data-instagram-handle="lakindu_jaya" data-pinterest-handle="lakindu_jaya" data-youtube-handle="movieplatform" data-networks="facebook,twitter,email,skype,instagram,pinterest,youtube">
+				</div>
+				<h1>MoviePlatform</h1>
+				<p>World's Premier Movie Publication</p>
+				<p>&copy; 2015 MoviePlatform. All Rights Reserved.</p>
+				<p>All of the free movies found on this website are hosted on third-party servers that are freely available to watch online for all internet users. Any legal issues regarding the free online movies on this website should be taken up with the actual file hosts themselves, as we're not affiliated with them.</p>
+			</footer>
+		</div>
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="classySocial/js/jquery.classysocial.min.js"></script>
+		<script src="slickNav/dist/jquery.slicknav.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>

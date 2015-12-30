@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="MoviePlatform - Watch movies and TV series online without any signups or payments. Discover the most popular and latest movies all in one place. We offer high quality movies with crystal clear sound and also a wide variety of TV series. Enjoy!">
+		<meta name="keywords" content="stream, watch, latest, popular, TV series, movies, online, free">
+		<title>MoviePlatform | Watch Movies And TV Series Online</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:700|Nunito:700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="sweetalert/dist/sweetalert.css">
+		<link rel="stylesheet" href="unslider/dist/css/unslider.css">
+		<link rel="stylesheet" type="text/css" href="classySocial/css/jquery.classysocial.min.css" />
+		<link rel="stylesheet" href="slickNav/dist/slicknav.css" />
+	</head>
+	<body>
+		<div id="main-wrapper">
+			<header class="main-header">
+				<a href="{{ baseUrl() }}" id="main-logo">
+					<h1>MoviePlatform</h1>
+					<h2 id="sub-logo">World's Premier Movie Publication</h2>
+				</a>
+				<form action="index.html" method="get" class="search">
+					<input type="text" name="search_field" placeholder="Search" class="sf">
+					<input type="image" value="Search" src="img/search.png" class="sb">
+				</form>
+				<nav>
+					<ul class="main-nav" id="menu">
+						<li><a href="{{ baseUrl() }}" class="selected">Home</a></li>
+						<li><a href="{{ siteUrl('/latest-movies') }}">Latest</a></li>
+						<li><a href="{{ siteUrl('/popular-movies') }}">Popular</a></li>
+						<li><a href="{{ siteUrl('/tv-series') }}">TV Series</a></li>
+						<li><a href="{{ siteUrl('/trailers') }}">Trailers</a></li>
+						<li><a href="{{ siteUrl('/upcoming') }}">Upcoming</a></li>
+						<li><a href="{{ siteUrl('/gallery') }}">Gallery</a></li>
+						<li><a href="{{ siteUrl('/about') }}">About</a></li>
+						<li><a href="{{ siteUrl('/contact') }}">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+			<section>
+				<div class="slider">
+					<ul>
+						<li><img src="img/gallery/mockingjay_part_2.jpg"></li>
+						<li><img src="img/gallery/the_force_awakens.jpg"></li>
+						<li><img src="img/gallery/spectre.jpg"></li>
+						<li><img src="img/gallery/the_good_dinosaur.jpg"></li>
+						<li><img src="img/gallery/secret_in_their_eyes.jpg"></li>
+						<li><img src="img/gallery/the_man_from_uncle.jpg"></li>
+						<li><img src="img/gallery/the_scorch_trials.jpg"></li>
+						<li><img src="img/gallery/sicario.jpg"></li>
+						<li><img src="img/gallery/pan.jpg"></li>
+						<li><img src="img/gallery/spy.jpg"></li>
+					</ul>
+				</div>
+				
+				<div>
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- MoviePlatform Ad2 -->
+					<ins class="adsbygoogle"
+						 style="display:block"
+						 data-ad-client="ca-pub-3570246341043489"
+						 data-ad-slot="2257402450"
+						 data-ad-format="auto"></ins>
+					<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</div>
+				
+				<div class="col">
+					<h1>Latest Movies</h1>
+					<ul>
+						<li>
+							<a href="http://vodlocker.com/zlpsqk5lki3y">
+								<img src="img/preview/steve_jobs.jpg" alt="">
+								<p>STEVE JOBS</p>
+							</a>
+						</li>
+						<li>
+							<a href="http://vodlocker.com/k4u1nn1rc1dm">
+								<img src="img/preview/goosebumps.jpg" alt="">
+								<p>GOOSEBUMPS </p>
+							</a>
+						</li>
+						<li>
+							<a href="http://vodlocker.com/4yu4i0dpz5sz">
+								<img src="img/preview/pan.jpg" alt="">
+								<p>PAN </p>
+							</a>
+						</li>
+						<li>
+							<a href="http://vodlocker.com/fbvjcjh2f1o9">
+								<img src="img/preview/sicario.jpg" alt="">
+								<p>SICARIO </p>
+							</a>
+						</li>
+						<li>
+							<a href="http://vodlocker.com/aen4q6n2dkie">
+								<img src="img/preview/hotel_transylvania.jpg" alt="">
+								<p>HOTEL TRANSYLVANIA 2 </p>
+							</a>
+						</li>
+						<li>
+							<a href="http://vodlocker.com/wi4uvf1v540l">
+								<img src="img/preview/man_up.jpg" alt="">
+								<p>MAN UP </p>
+							</a>
+						</li>
+						<li>
+							<a href="http://vodlocker.com/bb4slz0opy2d">
+								<img src="img/preview/the_martian.jpg" alt="">
+								<p>THE MARTIAN </p>
+							</a>
+						</li>
+						<li>
+							<a href="http://vodlocker.com/slxkmlfzzek9">
+								<img src="img/preview/youth.jpg" alt="">
+								<p>YOUTH </p>
+							</a>
+						</li>
+						<li>
+							<a href="http://vodlocker.com/n0lqh92eaf1f">
+								<img src="img/preview/bridge_of_spies.jpg" alt="">
+								<p>BRIDGE OF SPIES </p>
+							</a>
+						</li>
+						<li>
+							<a href="http://vodlocker.com/s3evny8wv0lo">
+								<img src="img/preview/everest.jpg" alt="">
+								<p>EVEREST </p>
+							</a>
+						</li>
+					</ul>
+					<span><a href="{{ siteUrl('/latest-movies') }}">Show More</a></span>
+				</div>
+				<div class="col">
+					<h1>Popular Movies</h1>
+					<ul>
+						<li>
+							<a href="http://vodlocker.com/zknpvuroysk9">
+								<img src="img/preview/mad_max_fury_road.jpg" alt="">
+								<p>MAD MAX : FURY ROAD </p>
+							</a>
+						</li>
+						<li>
+							<a href="http://vodlocker.com/vryabe476tlu">
+								<img src="img/preview/fast_and_furious_7.jpg" alt="">
+								<p>FURIOUS 7 </p>
+							</a>
+						</li>
+						<li>
+							<a href="http://vodlocker.com/75q1w7ojjax7">
+								<img src="img/preview/age_of_ultron.jpg" alt="">
+								<p>AVENGERS : AGE OF ULTRON </p>
+							</a>
+						</li>
+						<li>
+							<a href="http://vodlocker.com/5p7qcpu1rdp7">
+								<img src="img/preview/jurassic_world.jpg" alt="">
+								<p>JURASSIC WORLD </p>
+							</a>
+						</li>
+						<li>
+							<a href="http://vodlocker.com/3en3t0l8jnz0">
+								<img src="img/preview/mission_impossible_rogue_nation.jpg" alt="">
+								<p>MISSION : IMPOSSIBLE ROGUE NATION</p>
+							</a>
+						</li>
+						<li>
+							<a href="http://vodlocker.com/zmwp5knh2qmk">
+								<img src="img/preview/straight_outta_compton.jpg" alt="">
+								<p>STRAIGHT OUTTA COMPTON</p>
+							</a>
+						</li>
+						<li>
+							<a href="http://vodlocker.com/18c7ualu7nmj">
+								<img src="img/preview/inside_out.jpg" alt="">
+								<p>INSIDE OUT</p>
+							</a>
+						</li>
+						<li>
+							<a href="http://vodlocker.com/zdhzbioqq2vm">
+								<img src="img/preview/spy.jpg" alt="">
+								<p>SPY</p>
+							</a>
+						</li>
+						<li>
+							<a href="http://vodlocker.com/amn1p0tt75f5">
+								<img src="img/preview/terminator.jpg" alt="">
+								<p>TERMINATOR GENISYS</p>
+							</a>
+						</li>
+						<li>
+							<a href="http://vodlocker.com/yp7teocv71ha">
+								<img src="img/preview/minions.jpg" alt="">
+								<p>MINIONS</p>
+							</a>
+						</li>
+					</ul>
+					<span><a href="{{ siteUrl('/popular-movies') }}">Show More</a></span>
+				</div>
+				
+				<div>
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- MoviePlatform Ad3 -->
+					<ins class="adsbygoogle"
+						 style="display:block"
+						 data-ad-client="ca-pub-3570246341043489"
+						 data-ad-slot="5210868856"
+						 data-ad-format="auto"></ins>
+					<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</div>
+				
+				<div class="col">
+					<h1>TV Series</h1>
+					<ul>
+						<li>
+							<a href="http://putlocker.is/watch-game-of-thrones-tvshow-online-free-putlocker.html">
+								<img src="img/preview/game_of_thrones.jpg" alt="">
+								<p>GAME OF THRONES</p>
+							</a>
+						</li>
+						<li>
+							<a href="http://putlocker.is/watch-mr-robot-tvshow-online-free-putlocker.html">
+								<img src="img/preview/mr_robot.jpg" alt="">
+								<p>MR. ROBOT</p>
+							</a>
+						</li>
+						<li>
+							<a href="http://putlocker.is/watch-doctor-who-tvshow-online-free-putlocker.html">
+								<img src="img/preview/doctor_who.jpg" alt="">
+								<p>DOCTOR WHO</p>
+							</a>
+						</li>
+						<li>
+							<a href="http://putlocker.is/watch-the-walking-dead-tvshow-online-free-putlocker.html">
+								<img src="img/preview/the_walking_dead.jpg" alt="">
+								<p>THE WALKING DEAD</p>
+							</a>
+						</li>
+						<li>
+							<a href="http://putlocker.is/watch-supernatural-tvshow-online-free-putlocker.html">
+								<img src="img/preview/supernatural.jpg" alt="">
+								<p>SUPERNATURAL</p>
+							</a>
+						</li>
+						<li>
+							<a href="http://putlocker.is/watch-the-big-bang-theory-tvshow-online-free-putlocker.html">
+								<img src="img/preview/the_big_bang_theory.jpg" alt="">
+								<p>THE BIG BANG THEORY</p>
+							</a>
+						</li>
+						<li>
+							<a href="http://putlocker.is/watch-homeland-tvshow-online-free-putlocker.html">
+								<img src="img/preview/homeland.jpg" alt="">
+								<p>HOMELAND</p>
+							</a>
+						</li>
+						<li>
+							<a href="http://putlocker.is/watch-american-horror-story-tvshow-online-free-putlocker.html">
+								<img src="img/preview/american_horror_story.jpg" alt="">
+								<p>AMERICAN HORROR STORY</p>
+							</a>
+						</li>
+						<li>
+							<a href="http://putlocker.is/watch-the-flash-tvshow-online-free-putlocker.html">
+								<img src="img/preview/the_flash.jpg" alt="">
+								<p>THE FLASH</p>
+							</a>
+						</li>
+						<li>
+							<a href="http://putlocker.is/watch-arrow-tvshow-online-free-putlocker.html">
+								<img src="img/preview/arrow.jpg" alt="">
+								<p>ARROW</p>
+							</a>
+						</li>
+					</ul>
+					<span><a href="{{ siteUrl('/tv-series') }}">Show More</a></span>
+				</div>
+				<a href="http://www.hitwebcounter.com" target="_blank">
+				<img src="http://hitwebcounter.com/counter/counter.php?page=6263334&style=0009&nbdigits=5&type=page&initCount=0" title="http://www.hitwebcounter.com/htmltutorial.php" Alt="http://www.hitwebcounter.com/htmltutorial.php"   border="0" >
+				</a><br/>
+                <a href="http://www.hitwebcounter.com" title="WebPage Visits" target="_blank" style="font-family: Arial, Helvetica, sans-serif; font-size: 9px; color: #6A7175; text-decoration: underline ;"><strong>WebPage Visits</strong></a>             
+			
+			
+				<div>
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- MoviePlatform Ad1 -->
+					<ins class="adsbygoogle"
+						 style="display:block"
+						 data-ad-client="ca-pub-3570246341043489"
+						 data-ad-slot="7385606051"
+						 data-ad-format="auto"></ins>
+					<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</div>
+				
+				
+			
+			</section>
+			<footer class="main-footer">
+				<p>Connect with us</p>
+				<div class="classysocial bubble" data-arc-length="360" data-image-type="picture" data-picture="img/share_icon.png" data-facebook-handle="lakistealthhacker" data-twitter-handle="lakindu_jaya" data-email-handle="lakindu1.jayathilaka@gmail.com" data-skype-handle="lakindu_jayathilaka" data-instagram-handle="lakindu_jaya" data-pinterest-handle="lakindu_jaya" data-youtube-handle="movieplatform" data-networks="facebook,twitter,email,skype,instagram,pinterest,youtube">
+				</div>
+				<h1>MoviePlatform</h1>
+				<p>World's Premier Movie Publication</p>
+				<p>&copy; 2015 MoviePlatform. All Rights Reserved.</p>
+				<p>All of the free movies found on this website are hosted on third-party servers that are freely available to watch online for all internet users. Any legal issues regarding the free online movies on this website should be taken up with the actual file hosts themselves, as we're not affiliated with them.</p>
+			</footer>
+		</div>
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="classySocial/js/jquery.classysocial.min.js"></script>
+		<script src="sweetalert/dist/sweetalert.min.js"></script>
+		<script src="unslider/src/js/unslider.js"></script>
+		<script src="slickNav/dist/jquery.slicknav.min.js"></script>
+		<script src="js/home.js"></script>
+		<script src="js/script.js"></script>
+		
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-71822791-1', 'auto');
+			ga('send', 'pageview');
+		</script>
+		
+	</body>
+</html>

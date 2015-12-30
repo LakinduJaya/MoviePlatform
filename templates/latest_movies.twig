@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="MoviePlatform - Discover all the latest movie releases and stream them online for free. We offer high quality movies with crystal clear sound. We make streaming movies easy for you.">
+		<meta name="keywords" content="stream, watch, latest, movies, online, free">
+		<title>MoviePlatform | Latest Movies</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:700|Nunito:700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="classySocial/css/jquery.classysocial.min.css" />
+		<link rel="stylesheet" href="slickNav/dist/slicknav.css" />
+	</head>
+	<body>
+		<div id="main-wrapper">
+			<header class="main-header">
+				<a href="{{ baseUrl() }}" id="main-logo">
+					<h1>MoviePlatform</h1>
+					<h2 id="sub-logo">World's Premier Movie Publication</h2>
+				</a>
+				<form action="index.html" method="get" class="search">
+					<input type="text" name="search_field" placeholder="Search" class="sf">
+					<input type="image" value="Search" src="img/search.png" class="sb">
+				</form>
+				<nav>
+					<ul class="main-nav" id="menu">
+						<li><a href="{{ baseUrl() }}">Home</a></li>
+						<li><a href="{{ siteUrl('/latest-movies') }}" class="selected">Latest</a></li>
+						<li><a href="{{ siteUrl('/popular-movies') }}">Popular</a></li>
+						<li><a href="{{ siteUrl('/tv-series') }}">TV Series</a></li>
+						<li><a href="{{ siteUrl('/trailers') }}">Trailers</a></li>
+						<li><a href="{{ siteUrl('/upcoming') }}">Upcoming</a></li>
+						<li><a href="{{ siteUrl('/gallery') }}">Gallery</a></li>
+						<li><a href="{{ siteUrl('/about') }}">About</a></li>
+						<li><a href="{{ siteUrl('/contact') }}">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+			<section>
+				<h1 class="page_heading">Latest Movies</h1>
+				<ul class="movies">
+					<li>
+						<img src="img/steve_jobs.jpg" alt="Steve Jobs Movie Poster" class="movie_poster">
+						<div class="movie_info">
+							<h2 class="movie_title">Steve Jobs</h2>
+							<p class="movie_synopsis">His passion and ingenuity have been the driving force behind the digital age. However his drive to revolutionize technology was sacrificial. Ultimately it affected his family life and possibly his health. In this revealing film we explore the trials and triumphs of a modern day genius, the late CEO of Apple inc. Steven Paul Jobs.</p>
+							<p class="movie_rating">7.7/10 IMDb</p>
+							<a href="http://vodlocker.com/zlpsqk5lki3y">
+								<img src="img/watch_video.png" alt="Watch Movie" class="watch_movie">
+							</a>
+						</div>
+					</li>
+				    <li>
+						<img src="img/goosebumps.jpg" alt="Goosebumps Movie Poster" class="movie_poster">
+						<div class="movie_info">
+							<h2 class="movie_title">Goosebumps</h2>
+							<p class="movie_synopsis">Upset about moving from the big city to a small town, young Zach Cooper (Dylan Minnette) finds a silver lining when he meets his beautiful neighbor Hannah (Odeya Rush). The teen is surprised to learn that Hannah's mysterious father is R.L. Stine (Jack Black), the famous author of the best-selling "Goosebumps" series. When Zach accidentally unleashes the monsters from the fantastic tales, it's up to Stine, his daughter and Cooper to return the beasts back to the books where they belong.</p>
+							<p class="movie_rating">7.1/10 IMDb</p>
+							<a href="http://vodlocker.com/k4u1nn1rc1dm">
+								<img src="img/watch_video.png" alt="Watch Movie" class="watch_movie">
+							</a>
+						</div>
+					</li>
+					<li>
+						<img src="img/pan.jpg" alt="Pan Movie Poster" class="movie_poster">
+						<div class="movie_info">
+							<h2 class="movie_title">Pan</h2>
+							<p class="movie_synopsis">Living a bleak existence at a London orphanage, 12-year-old Peter (Levi Miller) finds himself whisked away to the fantastical world of Neverland. Adventure awaits as he meets new friend James Hook (Garrett Hedlund) and the warrior Tiger Lily (Rooney Mara). They must band together to save Neverland from the ruthless pirate Blackbeard (Hugh Jackman). Along the way, the rebellious and mischievous boy discovers his true destiny, becoming the hero forever known as Peter Pan.</p>
+							<p class="movie_rating">6/10 IMDb</p>
+							<a href="http://vodlocker.com/4yu4i0dpz5sz">
+								<img src="img/watch_video.png" alt="Watch Movie" class="watch_movie">
+							</a>
+						</div>
+					</li>
+					<li>
+						<img src="img/sicario.jpg" alt="Sicario Movie Poster" class="movie_poster">
+						<div class="movie_info">
+							<h2 class="movie_title">Sicario</h2>
+							<p class="movie_synopsis">After rising through the ranks of her male-dominated profession, idealistic FBI agent Kate Macer (Emily Blunt) receives a top assignment. Recruited by mysterious government official Matt Graver (Josh Brolin), Kate joins a task force for the escalating war against drugs. Led by the intense and shadowy Alejandro (Benicio Del Toro), the team travels back-and-forth across the U.S.-Mexican border, using one cartel boss (Bernardo Saracino) to flush out a bigger one (Julio Cesar Cedillo).</p>
+							<p class="movie_rating">8.1/10 IMDb</p>
+							<a href="http://vodlocker.com/fbvjcjh2f1o9">
+								<img src="img/watch_video.png" alt="Watch Movie" class="watch_movie">
+							</a>
+						</div>
+					</li>
+					<li>
+						<img src="img/hotel_transylvania.jpg" alt="Hotel Transylvania 2 Movie Poster" class="movie_poster">
+						<div class="movie_info">
+							<h2 class="movie_title">Hotel Transylvania 2</h2>
+							<p class="movie_synopsis">Now that Dracula (Adam Sandler) has opened the Hotel Transylvania's doors to humans, things are changing for the better; however, Drac is secretly worried that his half-human grandson, Dennis, isn't showing his vampire side. So, while Mavis and Johnny are away, Drac enlists his friends to help him put the boy through a "monster-in-training" boot camp. But things really get batty when Drac's cantankerous, old-school dad (Mel Brooks) pays an unexpected visit.</p>
+							<p class="movie_rating">7.1/10 IMDb</p>
+							<a href="http://vodlocker.com/aen4q6n2dkie">
+								<img src="img/watch_video.png" alt="Watch Movie" class="watch_movie">
+							</a>
+						</div>
+					</li>
+					<li>
+						<img src="img/man_up.jpg" alt="Man Up Movie Poster" class="movie_poster">
+						<div class="movie_info">
+							<h2 class="movie_title">Man Up</h2>
+							<p class="movie_synopsis">A 34 year old single woman, Nancy, hung-over again, exhausted by the endless fruitless set ups by her friends, traveling across London to toast another 10 years of her parent's successful happy magical marriage runs in with a 40 year old divorcee, Jack, who mistakes her for his 24 year old blind date. Nancy, deciding to go with it, happens to hop on the most chaotic yet hilarious journey of her life which neither of them will ever forget. There is drinking, truths, an old stalker class mate with long a standing crush, lost divorce papers, lost hopes, competitive indoor sports and yeah Jack finding out the truth that Nancy isn't his blind date. 'Man Up' a romantic comedy about taking chances, finding about being yourself, making decisions and rolling with the consequences.</p>
+							<p class="movie_rating">6.8/10 IMDb</p>
+							<a href="http://vodlocker.com/wi4uvf1v540l">
+								<img src="img/watch_video.png" alt="Watch Movie" class="watch_movie">
+							</a>
+						</div>
+					</li>
+					<li>
+						<img src="img/the_martian.jpg" alt="The Martian Movie Poster" class="movie_poster">
+						<div class="movie_info">
+							<h2 class="movie_title">The Martian</h2>
+							<p class="movie_synopsis">When astronauts blast off from the planet Mars, they leave behind Mark Watney (Matt Damon), presumed dead after a fierce storm. With only a meager amount of supplies, the stranded visitor must utilize his wits and spirit to find a way to survive on the hostile planet. Meanwhile, back on Earth, members of NASA and a team of international scientists work tirelessly to bring him home, while his crew mates hatch their own plan for a daring rescue mission.</p>
+							<p class="movie_rating">8.3/10 IMDb</p>
+							<a href="http://vodlocker.com/bb4slz0opy2d">
+								<img src="img/watch_video.png" alt="Watch Movie" class="watch_movie">
+							</a>
+						</div>
+					</li>
+					<li>
+						<img src="img/youth.jpg" alt="Youth Movie Poster" class="movie_poster">
+						<div class="movie_info">
+							<h2 class="movie_title">Youth</h2>
+							<p class="movie_synopsis">Fred (Michael Caine), a retired composer and conductor, vacations at a Swiss Spa with his longtime friend Mick (Harvey Keitel). As Mick crafts what may be his final screenplay, Fred is given the opportunity to perform for the Queen.</p>
+							<p class="movie_rating">7.4/10 IMDb</p>
+							<a href="http://vodlocker.com/slxkmlfzzek9">
+								<img src="img/watch_video.png" alt="Watch Movie" class="watch_movie">
+							</a>
+						</div>
+					</li>
+					<li>
+						<img src="img/bridge_of_spies.jpg" alt="Bridge of Spies Movie Poster" class="movie_poster">
+						<div class="movie_info">
+							<h2 class="movie_title">Bridge of Spies</h2>
+							<p class="movie_synopsis">During the Cold War, the Soviet Union captures U.S. pilot Francis Gary Powers after shooting down his U-2 spy plane. Sentenced to 10 years in prison, Powers' only hope is New York lawyer James Donovan (Tom Hanks), recruited by a CIA operative to negotiate his release. Donovan boards a plane to Berlin, hoping to win the young man's freedom through a prisoner exchange. If all goes well, the Russians would get Rudolf Abel (Mark Rylance), the convicted spy who Donovan defended in court.</p>
+							<p class="movie_rating">8.2/10 IMDb</p>
+							<a href="http://vodlocker.com/n0lqh92eaf1f">
+								<img src="img/watch_video.png" alt="Watch Movie" class="watch_movie">
+							</a>
+						</div>
+					</li>
+					<li>
+						<img src="img/everest.jpg" alt="Everest Movie Poster" class="movie_poster">
+						<div class="movie_info">
+							<h2 class="movie_title">Everest</h2>
+							<p class="movie_synopsis">On the morning of May 10, 1996, climbers (Jason Clarke, Josh Brolin) from two expeditions start their final ascent toward the summit of Mount Everest, the highest point on Earth. With little warning, a violent storm strikes the mountain, engulfing the adventurers in one of the fiercest blizzards ever encountered by man. Challenged by the harshest conditions imaginable, the teams must endure blistering winds and freezing temperatures in an epic battle to survive against nearly impossible odds.</p>
+							<p class="movie_rating">7.3/10 IMDb</p>
+							<a href="http://vodlocker.com/s3evny8wv0lo">
+								<img src="img/watch_video.png" alt="Watch Movie" class="watch_movie">
+							</a>
+						</div>
+					</li>
+					<li>
+						<img src="img/experimenter.jpg" alt="Experimenter Movie Poster" class="movie_poster">
+						<div class="movie_info">
+							<h2 class="movie_title">Experimenter</h2>
+							<p class="movie_synopsis">In 1961, social psychologist Stanley Milgram (Peter Sarsgaard) conducts controversial experiments designed to measure conformity, conscience and free will.</p>
+							<p class="movie_rating">6.7/10 IMDb</p>
+							<a href="http://vodlocker.com/e3ja3fs4byui">
+								<img src="img/watch_video.png" alt="Watch Movie" class="watch_movie">
+							</a>
+						</div>
+					</li>
+					<li>
+						<img src="img/the_walk.jpg" alt="The Walk Movie Poster" class="movie_poster">
+						<div class="movie_info">
+							<h2 class="movie_title">The Walk</h2>
+							<p class="movie_synopsis">As a boy, Philippe Petit dreams of performing daring feats for dazzled crowds. As an adult (Joseph Gordon-Levitt), his life's ambition comes true when he becomes a high-wire artist who stares death in the face with every step. Under the guidance of mentor Papa Rudy, the French daredevil devises a plan to walk on a tightrope attached to the north and south towers of the World Trade Center. With help from his team and against all odds, Petit attempts the seemingly impossible stunt on Aug. 7, 1974.</p>
+							<p class="movie_rating">7.8/10 IMDb</p>
+							<a href="http://vodlocker.com/z0w8duwr4aox">
+								<img src="img/watch_video.png" alt="Watch Movie" class="watch_movie">
+							</a>
+						</div>
+					</li>
+					<li>
+						<img src="img/black_mass.jpg" alt="Black Mass Movie Poster" class="movie_poster">
+						<div class="movie_info">
+							<h2 class="movie_title">Black Mass</h2>
+							<p class="movie_synopsis">While his brother Bill (Benedict Cumberbatch) remains a powerful leader in the Massachusetts Senate, Irish hoodlum James "Whitey" Bulger (Johnny Depp) continues to pursue a life of crime in 1970s Boston. Approached by FBI agent John Connolly (Joel Edgerton), the lawman convinces Whitey to help the agency fight the Italian mob. As their unholy alliance spirals out of control, Bulger increases his power and evades capture to become one of the most dangerous gangsters in U.S. history.</p>
+							<p class="movie_rating">7.3/10 IMDb</p>
+							<a href="http://vodlocker.com/it89ziyfo154">
+								<img src="img/watch_video.png" alt="Watch Movie" class="watch_movie">
+							</a>
+						</div>
+					</li>
+					<li>
+						<img src="img/the_final_girls.jpg" alt="The Final Girls Movie Poster" class="movie_poster">
+						<div class="movie_info">
+							<h2 class="movie_title">The Final Girls</h2>
+							<p class="movie_synopsis">Max, recently orphaned, goes to see a screening of a B-horror movie that her mother made 20 years earlier. When Max and her friends find themselves in the world of the film itself, they must apply their knowledge of horror tropes to survive.</p>
+							<p class="movie_rating">6.9/10 IMDb</p>
+							<a href="http://vodlocker.com/q4qilfsciuw6">
+								<img src="img/watch_video.png" alt="Watch Movie" class="watch_movie">
+							</a>
+						</div>
+					</li>
+					<li>
+						<img src="img/the_transporter_refueled.jpg" alt="The Transporter Refueled Movie Poster" class="movie_poster">
+						<div class="movie_info">
+							<h2 class="movie_title">The Transporter Refueled</h2>
+							<p class="movie_synopsis">Frank Martin is living a less perilous lifestyle, or so he thinks, transporting classified packages for questionable people. Things get complicated when femme fatale Anna and her three accomplices orchestrate a bank heist and the kidnapping of Frank's father. It's all part of a grand plan to take down the human trafficker who victimized her years earlier. Now a pawn in her vengeful scheme, the former special-operations mercenary must use his covert skills to play Anna's dangerous game.</p>
+							<p class="movie_rating">4.9/10 IMDb</p>
+							<a href="http://vodlocker.com/b1cy5q42vome">
+								<img src="img/watch_video.png" alt="Watch Movie" class="watch_movie">
+							</a>
+						</div>
+					</li>
+				</ul>
+			</section>
+			<footer class="main-footer">
+				<p>Connect with us</p>
+				<div class="classysocial bubble" data-arc-length="360" data-image-type="picture" data-picture="img/share_icon.png" data-facebook-handle="lakistealthhacker" data-twitter-handle="lakindu_jaya" data-email-handle="lakindu1.jayathilaka@gmail.com" data-skype-handle="lakindu_jayathilaka" data-instagram-handle="lakindu_jaya" data-pinterest-handle="lakindu_jaya" data-youtube-handle="movieplatform" data-networks="facebook,twitter,email,skype,instagram,pinterest,youtube">
+				</div>
+				<h1>MoviePlatform</h1>
+				<p>World's Premier Movie Publication</p>
+				<p>&copy; 2015 MoviePlatform. All Rights Reserved.</p>
+				<p>All of the free movies found on this website are hosted on third-party servers that are freely available to watch online for all internet users. Any legal issues regarding the free online movies on this website should be taken up with the actual file hosts themselves, as we're not affiliated with them.</p>
+			</footer>
+		</div>
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="classySocial/js/jquery.classysocial.min.js"></script>
+		<script src="slickNav/dist/jquery.slicknav.min.js"></script>
+		<script src="trunk8/trunk8.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/movies.js"></script>
+	</body>
+</html>

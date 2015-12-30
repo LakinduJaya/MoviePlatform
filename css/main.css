@@ -1,0 +1,1205 @@
+/*************************
+GENERAL STYLES
+*************************/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #FFF;
+	color: #000;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#main-wrapper {
+	width: 90%;
+	margin: auto;
+	max-width: 1366px;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul, ol {
+	list-style: none;
+	padding-left: 0;
+}
+
+h1 {
+	font-family: 'Nunito', sans-serif;
+	font-size: 2.5em;
+	line-height: 0.8;
+}
+
+h2, h3 {
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
+}
+
+p {
+	text-align: justify;
+}
+
+/*************************
+HEADER STYLES
+*************************/
+
+.main-header {
+	background-color: #000;
+	padding: 20px;
+	clear: both;
+}
+
+#main-logo {
+	text-align: center;
+	margin: 0;
+	color: #FFF;
+}
+
+.main-nav {
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+	height: 100%;
+	margin: 0;
+	padding-top: 10px;
+	clear: both;
+}
+
+.main-nav li {
+	-webkit-align-self: center;
+	align-self: center;
+	text-align: center;
+	font-size: 1.2em;
+	-webkit-flex-grow: 1;
+	flex-grow: 1;
+	margin-left: 5px;
+	margin-right: 5px;
+	border: solid 2px #FFF;
+	padding: 10px 0;
+}
+
+.main-nav li:hover {
+	border: solid 2px #00D7D7;
+}
+
+.main-nav a , .main-nav a:visited {
+	color: #FFF;
+	padding: 10px 20px;
+}
+
+.main-nav a.selected {
+	color: #00D7D7;
+}
+
+.search {
+	float: right;
+	margin-right: 10px;
+}
+
+.search input {
+	background-color: #F8FFFF;
+	border: 0px;
+	color: #000;
+	margin-top: 0;
+	padding: 4px 8px;
+}
+
+.sb {
+	height: 30px;
+	vertical-align: top;
+}
+
+.slicknav_menu {
+	display: none;
+}
+
+/*************************
+FOOTER STYLES
+*************************/
+
+.main-footer {
+	background-color: black;
+	color: white;
+	font-size: 0.8em;
+	text-align: center;
+	padding: 10px 0;
+	clear: both;
+}
+
+.main-footer  p {
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.classysocial {
+	display: inline-block;
+	margin: 0 auto;
+}
+/*************************
+HOME PAGE STYLES
+*************************/
+
+.slider img {
+	width: 100%;
+	height: 550px;
+}
+
+.slider {
+	width: 80%;
+	height: 550px;
+	margin: 20px auto;
+}
+
+.unslider-arrow {
+	display: block;
+	width: 42px;
+	height: 42px;
+	top: 100%;
+	background: rgba(140,140,140,.5) no-repeat 50% 50%;
+	background-image: url("../img/arrow_icon.png");
+	background-size: 25px 28px;
+	border-radius: 100%;
+	text-indent: -999em;
+	overflow: hidden;
+}
+
+.unslider-nav {
+	display: none;
+}
+
+.next {
+	transform: rotate(-180deg);
+}
+
+.col {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	clear: both;
+	border-top: solid 2px #00D7D7;
+}
+
+.col h1 {
+	text-align: center;
+}
+
+.col span {
+	float: right;
+	padding: 20px 0;
+	font-size: 1em;
+	clear: both;
+}
+
+.col span a {
+	color: #000;
+}
+
+.col ul li {
+	float: left;
+	width: 18%;
+	margin: 1%;
+	background-color: #52bab3;
+	text-align: center;
+}
+
+.col p {
+	text-align: center;
+	font-size: 0.8em;
+}
+
+.col img {
+	width: 100%;
+	height: 280px;
+}
+
+.col li a {
+	color: #000;
+}
+
+/*************************
+ABOUT PAGE STYLES
+*************************/
+
+.about_us {
+	float: left;
+	width: 50%;
+	line-height: 1.5;
+}
+
+.about_us ul {
+	list-style-type: disc;
+	margin: 20px;
+}
+
+.about_author {
+	float: right;
+	width: 45%;
+	line-height: 1.5;
+}
+
+.about_author a , .about_author a:visited {
+	color: #00D7D7;
+}
+
+.author_pic {
+	display: block;
+	width: 350px;
+	height: 250px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px #000;
+}
+
+/*************************
+CONTACT PAGE STYLES
+*************************/
+
+.contact_us {
+	float: left;
+	width: 50%;
+}
+
+.contact_us p {
+	line-height: 1.5;
+}
+
+.contact_details {
+	float: right;
+	width: 40%;
+}
+
+.contact_details ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.contact_details ul a {
+	display: block;
+	min-height: 40px;
+	background-repeat: no-repeat;
+	background-size: 40px 40px;
+	margin: 0 0 10px;
+	padding: 10px 0 0 50px;
+}
+
+.contact_details ul li.phone a {
+	background-image: url('../img/phone.png');
+}
+
+.contact_details ul li.mail a {
+	background-image: url('../img/email_icon.png');
+}
+
+.contact_details ul li.twitter a {
+	background-image: url('../img/twitter_icon.png');
+}
+
+.contact_details ul li.facebook a {
+	background-image: url('../img/facebook_icon.png');
+}
+
+.contact_details a, .contact_details a:visited {
+	color: #00D7D7;
+}
+
+.contact_form {
+	display: inline-block;
+	float: left;
+	width: 50%;
+	padding: 20px;
+	margin: 50px 0;
+	background-color: #CCFFFF;
+	border-radius: 5px;
+	clear: both;
+}
+
+.contact_form h2 {
+	text-align: center;
+	margin: 20px 0;
+}
+
+.contact_form input, .contact_form textarea {
+	border: none;
+	width: 100%;
+	margin: 10px 0;
+	padding: 6px 8px;
+	font-size: 0.9em;
+}
+
+fieldset {
+	border: none;
+}
+
+legend {
+	font-size: 1.2em;
+	margin-bottom: 30px;
+}
+
+label {
+	display: block;
+}
+
+button {
+	display: block;
+	background-color: #52bab3;
+	color: #OOO;
+	margin: auto;
+	font-size: 1.4em;
+	text-align: center;
+	border-radius: 5px;
+	border: none;
+	padding: 10px;
+}
+
+.treehouse_poster {
+	display: inline-block;
+	float: right;
+	width: 40%;
+	margin: 50px 0 0;
+}
+
+.treehouse_poster img {
+	display: block;
+	height: 200px;
+	width: 200px;
+	margin: 150px auto;
+}
+
+/*************************
+UPCOMING PAGE STYLES
+*************************/
+
+table {
+	width: 100%;
+	margin: 50px auto;
+}
+
+caption {
+	font-size: 1.8em;
+	margin: 20px 0;
+	font-family: 'Nunito', sans-serif;
+}
+
+thead th {
+	font-size: 1.2em;
+	background-color: #4bc970;
+	color: #000;
+	padding: 10px 0;
+}
+
+tr {
+	background-color: #93FDAD;
+	color: #000;
+	border-bottom: solid 2px #FFF;
+}
+
+th, td {
+	text-align: left;
+	padding: 10px 0;
+}
+
+tfoot tr {
+	background: none;
+}
+
+tfoot td {
+	font-style: italic;
+	text-align: center;
+}
+
+/******************************************
+POPULAR MOVIES & LATEST MOVIES PAGE STYLES
+******************************************/
+
+.page_heading {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.movies {
+	list-style: none;
+	margin: 20px 0;
+	padding: 0;
+}
+
+.movies li {
+	display: inline-block;
+	float: left;
+	width: 46%;
+	margin-left: 2%;
+	margin-right: 2%;
+	padding: 10px 0;
+}
+
+.movies .movie_poster {
+	display: block;
+	width: 55%;
+	height: 360px;
+	margin: 0 auto;
+}
+
+.movies .movie_title {
+	margin: 20px 0;
+	text-align: center;
+}
+
+.movies .movie_synopsis {
+	margin-bottom: 20px;
+	line-height: 1.5;
+}
+
+.movies .movie_synopsis a {
+	color : #00D7D7;
+}
+
+.movies .movie_rating {
+	text-align: center;
+	color: #00D7D7;
+}
+
+.movies .watch_movie {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	height: 80px;
+}
+
+/*************************
+TV SERIES PAGE STYLES
+*************************/
+
+.series {
+	list-style: none;
+	padding: 0;
+	margin: 20px 0;
+}
+
+.series li {
+	display: inline-block;
+	float: left;
+	width: 46%;
+	margin-left: 2%;
+	margin-right: 2%;
+	padding: 10px 0;
+}
+
+.series .series_poster {
+	display: block;
+	width: 55%;
+	height: 360px;
+	margin: 0 auto;
+}
+
+.series .series_title {
+	margin: 20px 0;
+	text-align: center;
+}
+
+.series .series_synopsis {
+	margin-bottom: 20px;
+	line-height: 1.5;
+}
+
+.series .series_synopsis a {
+	color : #00D7D7;
+}
+
+.series .series_rating {
+	text-align: center;
+	color: #00D7D7;
+}
+
+.series .watch_series {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	height: 80px;
+}
+
+/*************************
+Trailers Page Styles
+*************************/
+.trailers {
+	list-style: none;
+	padding: 0;
+	margin: 20px 0;
+}
+.trailers li {
+	float: left;
+	width: 32%;
+	margin: 1% .5%;
+}
+.trailers p {
+	text-align: center;
+}
+.trailers img {
+	width: 100%;
+	height: 250px;
+}
+
+/*************************
+Gallery Page Styles
+*************************/
+#gallery {
+	list-style: none;
+	padding-left: 0;
+}
+
+#gallery li {
+	width: 18%;
+	float: left;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#gallery img {
+	width: 100%;
+	height: 150px;
+}
+
+#overlay {
+	background: rgba(0,0,0,.9);
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+#overlay img {
+	width: 900px;
+	height: 550px;
+}
+
+#overlay h2 {
+	text-align: center;
+	color: white;
+}
+
+/*************************
+MEDIA QUERIES
+*************************/
+
+
+@media screen and (max-width: 1150px) {
+	
+	.main-nav  li{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	
+	/*************************
+	HOME PAGE STYLES
+	*************************/
+	.slider img {
+	width: 100%;
+	height: 480px;
+	}
+
+	.slider {
+		width: 80%;
+		height: 480px;
+		margin: 20px auto;
+	}
+	
+	.unslider-arrow {
+	top: 90%;
+	}
+	
+	.col img {
+		height: 200px;
+	}
+	
+	.col p {
+		font-size: 0.7em;
+	}
+	
+	/******************************
+	Latest Movies and Popular Movies page styles
+	*******************************/
+	
+	.movies .movie_poster {
+		width: 50%;
+		height: 300px;
+	}
+	.movies .movie_title {
+		margin: 20px 0;
+	}
+	.movies .movie_synopsis {
+		font-size: 0.9em;
+	}
+	.movies .movie_rating {
+		font-size: 0.9em;
+	}
+	.movies .watch_movie {
+		width: 150px;
+		height: 60px;
+	}
+	
+	/******************************
+	TV Series page styles
+	*******************************/
+	
+	.series .series_poster {
+		width: 50%;
+		height: 300px;
+	}
+	
+	.series .series_synopsis {
+		font-size: 0.9em;
+	}
+	
+	.series .series_rating {
+		font-size: 0.9em;
+	}
+	
+	.series .watch_series {
+		width: 150px;
+		height: 60px;
+	}
+	
+	/******************************
+	Upcoming page styles
+	*******************************/
+	table th:nth-of-type(3), table td:nth-of-type(2) {
+		display: none;
+	}
+	
+	table th:nth-of-type(4), table td:nth-of-type(3) {
+		display: none;
+	}
+	
+	td, th {
+		padding: 10px 10px 10px 0;
+		font-size: 0.9em;
+	}
+	
+	/******************************
+	About page styles
+	*******************************/
+	
+	.about_us, .about_author {
+		font-size: 0.9em;
+	}
+	
+	/******************************
+	Contact page styles
+	*******************************/
+	
+	.contact_us, .contact_details, .contact_form {
+		font-size: 0.9em;
+	}
+	
+	/******************************
+	Trailers page styles
+	*******************************/
+	.trailers li {
+	float: left;
+	width: 48%;
+	margin: 1% 1%;
+	}
+	
+	
+	/******************************
+	Gallery page styles
+	*******************************/
+	#gallery li {
+		width: 24%;
+		margin-right: .5%;
+		margin-left: .5%;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	/******************************
+	Home page Styles
+	*******************************/
+	.slider img {
+	width: 100%;
+	height: 400px;
+	}
+
+	.slider {
+		width: 80%;
+		height: 400px;
+		margin: 20px auto;
+	}
+	
+	.col ul li {
+		width: 22%;
+		margin-left: 1%;
+		margin-right: 1%;
+	}
+	
+	.col img {
+		height: 225px;
+	}
+	
+	.col p {
+		font-size: 0.7em;
+	}
+	
+	/******************************
+	Latest Movies and Popular Movies page styles
+	*******************************/
+	
+	.movies .movie_poster {
+		width: 60%;
+		height: 300px;
+	}
+	
+	/******************************
+	TV series page styles
+	*******************************/
+	
+	.series .series_poster {
+		width: 60%;
+		height: 300px;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	/******************************
+	General Styles
+	*******************************/
+	
+	body {
+		font-size: 0.9em;
+	}
+	
+	.main-footer p {
+		font-size: 0.8em;
+		margin: 10px 0;
+	}
+	/******************************
+	Home page Styles
+	*******************************/
+	.slider img {
+	width: 100%;
+	height: 300px;
+	}
+
+	.slider {
+		width: 80%;
+		height: 300px;
+		margin: 20px auto;
+	}
+	
+	.unslider-arrow {
+	top: 80%;
+	}
+	
+	.col ul li {
+		width: 30%;
+		margin-left: 1%;
+		margin-right: 1%;
+	}
+	
+	.col img {
+		height: 250px;
+	}
+	
+	.col p {
+		font-size: 0.8em;
+	}
+	
+	/******************************
+	Popular and Latest movies page Styles
+	*******************************/
+	.movies .movie_poster {
+		width: 60%;
+		height: 225px;
+	}
+	
+	/******************************
+	TV series page Styles
+	*******************************/
+	.series .series_poster {
+		width: 60%;
+		height: 225px;
+	}
+	
+	/******************************
+	Trailers page styles
+	*******************************/
+	.trailers li {
+	float: left;
+	width: 48%;
+	margin: 1%;
+	}
+	.trailers img {
+		height: 200px;
+	}
+	
+	/******************************
+	Gallery page styles
+	*******************************/
+	#gallery li {
+		width: 31%;
+		margin-left: 1%;
+		margin-right: 1%;
+	}
+}
+
+@media screen and (max-width: 650px){
+	#main-wrapper{
+		width: 98%;
+		margin: 0 auto;
+	}
+	
+	/******************************
+	Home page styles
+	*******************************/
+	
+	.unslider-arrow {
+	display: none;
+	}
+	
+	.col ul li {
+		width: 30%;
+		margin-left: 1.5%;
+		margin-right: 1.5%;
+	}
+	
+	.col p {
+		display: none;
+	}
+	
+	.col img {
+		height: 200px;
+	}
+	
+	/******************************
+	Popular and Latest movies page Styles
+	*******************************/
+	.movies .movie_poster {
+		width: 70%;
+		height: 250px;
+	}
+	
+	.movie .movie_rating {
+		display: none;
+	}
+	
+	/******************************
+	TV series page Styles
+	*******************************/
+	.series .series_poster {
+		width: 70%;
+		height: 250px;
+	}
+	
+	.series .series_rating {
+		display: none;
+	}
+	
+	/******************************
+	Gallery page styles
+	*******************************/
+	#gallery li {
+		width: 48%;
+		margin-left: 1%;
+		margin-right: 1%;
+	}
+	#gallery img {
+		height: 200px;
+	}
+}
+
+@media screen and (min-width: 480px){
+	nav select {
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+	
+	/******************************
+	General styles
+	*******************************/
+	
+	#main-wrapper {
+		width: 100%;
+	}
+	
+	/******************************
+	Header styles
+	*******************************/
+	
+	.main-nav {
+		display: none;
+	}
+	
+	.slicknav_menu{
+		display: block;
+	}
+	
+	.search {
+		display: none;
+	}
+	
+	#main-logo {
+		font-size: 0.8em;
+	}
+	
+	/******************************
+	Home page styles
+	*******************************/
+	.slider {
+		display: none;
+	}
+	
+	.unslider-arrow {
+	display: none;
+	}
+	
+	
+	.col ul li {
+		width: 45%;
+		margin-left: 2%;
+		margin-right: 2%;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	
+	.col img {
+		width: 100%;
+		height: 250px;
+	}
+	
+	.col p {
+		display: none;
+	}
+	
+	/******************************
+	Latest Movies and Popular Movies page styles
+	*******************************/
+	.movies li {
+		width: 100%;
+	}
+	
+	.movies .movie_poster {
+		width: 50%;
+	}
+	
+	.movies .movie_synopsis {
+		width: 90%;
+		margin: 0 auto;
+	}
+	
+	.page_heading {
+		font-size: 2em;
+		margin-top: 50px;
+	}
+	
+	/******************************
+	TV Series page styles
+	*******************************/
+	
+	.series li {
+		width: 100%;
+	}
+	
+	.series .series_poster {
+		width: 50%;
+	}
+	
+	.series .series_synopsis {
+		width: 90%;
+		margin: 0 auto;
+	}
+	/*************************
+	Trailers Page Styles
+	*************************/
+	
+	.trailers li {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	.trailers img {
+		height: 225px;
+	}
+	
+	/******************************
+	Upcoming page styles
+	*******************************/
+	
+	table th:nth-of-type(2), table td:nth-of-type(1){
+		display: none;
+	}
+	
+	table th:nth-of-type(3), table td:nth-of-type(2) {
+		display: none;
+	}
+	
+	table th:nth-of-type(4) , table td:nth-of-type(3) {
+		display: none;
+	}
+	
+	/******************************
+	About page styles
+	*******************************/
+	.about_us, .about_author {
+		display: block;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.about_us h2, .about_author h2 {
+		font-size: 1.4em;
+	}
+	.about_us h3 {
+		font-size: 1.2em;
+	}
+	.about_us p, .about_author p {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.about_us ul {
+		list-style: none;
+		padding-left: 0;
+	}
+	.about_author img {
+		display: block;
+		width: 60%;
+		height: 200px;
+		margin: 20 auto;
+	}
+	
+	/******************************
+	Contact page styles
+	*******************************/
+	
+	.contact_us, .contact_details, .contact_form {
+		display: block;
+		width: 100%;
+		margin: 10px auto;
+	}
+	.contact_us h2, .contact_details h2, .contact_form h2 {
+		font-size: 1.4em;
+	}
+	.contact_us p, .contact_details ul {
+		width: 90%;
+		margin: 0 auto;
+	}
+	label {
+		font-size: 0.9em;
+	}
+	legend {
+		margin-bottom: 10px;
+		font-size: 1em;
+	}
+	
+	.contact_form h2 {
+		margin: 10px 0;
+	}
+	
+	.contact_form input, .contact_form textarea {
+		display: block;
+		width: 100%;
+		margin: 10px auto;
+	}
+	
+	.contact_form button {
+		width: 90%;
+		margin: 10px auto;
+		border-radius: 0;
+	}
+	
+	.treehouse_poster {
+		display: block;
+		width: 100%;
+		margin: 20px auto;
+	}
+
+	.treehouse_poster img {
+		display: block;
+		height: 200px;
+		width: 200px;
+		margin: 0 auto;
+	}
+	
+	/******************************
+	Gallery page styles
+	*******************************/
+	#gallery li {
+		width: 100%;
+	}
+	#gallery img {
+		height: 225px;
+	}
+
+}
+
+@media screen and (max-width: 380px) {
+	/******************************
+	HOME PAGE STYLES
+	*******************************/
+	.col ul li {
+		width: 45%;
+		margin-right: 2.5%;
+		margin-left: 2.5%;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	
+	.col img {
+		height: 200px;
+	}
+	
+	.col p {
+		display: none;
+	}
+	/******************************
+	Latest Movies and Popular Movies page styles
+	*******************************/
+	.movies .movie_poster {
+		width: 60%;
+		height: 250px;
+	}
+	
+	.movies .movie_title {
+		font-size: 1.4em;
+		margin: 20px 0;
+	}
+	
+	.movies .movie_synopsis {
+		width: 90%;
+		margin: 0 auto;
+	}
+	
+	.movies .movie_rating {
+		display: none;
+		margin: 0;
+	}
+	
+	.movies .watch_movie {
+		width: 150px;
+		height: 60px;
+		margin: 10px auto;
+	}
+	
+	/***************************
+	ABOUT PAGE
+	*********************************/
+	.about_author img {
+		display: block;
+		width: 60%;
+		height: 150px;
+		margin: 20 auto;
+	}
+}

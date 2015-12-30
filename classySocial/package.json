@@ -1,0 +1,28 @@
+{
+	"name": "classysocial",
+	"title": "jQuery ClassySocial",
+	"description": "ClassySocial is a jQuery plugin that lets your site visitors easily see what networks you belong to and visit them in a click of a button.",
+	"keywords": [
+		"social",
+		"twitter",
+		"facebook"
+	],
+	"version": "1.2.0",
+	"author": {
+		"name": "Marius Stanciu - Sergiu",
+		"url": "http://www.class.pm"
+	},
+	"licenses": [
+		{
+			"type": "GPLv3",
+			"url": "http://www.gnu.org/licenses/gpl-3.0.txt"
+		}
+	],
+	"bugs": "https://github.com/classpm/jquery-classysocial/issues",
+	"homepage": "http://www.class.pm/projects/jquery/classysocial/",
+	"docs": "http://www.class.pm/projects/jquery/classysocial/",
+	"download": "https://github.com/classpm/jquery-classysocial/archive/master.zip",
+	"dependencies": {
+		"jquery": ">=1.6"
+	}
+}
