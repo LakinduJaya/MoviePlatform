@@ -1,0 +1,13 @@
+1. Putting all the movie details inside of an array. Each array element should contain information about one movie and it should be an array itself containing information like the movie title, movie image location, movie synopsis, movie rating and etc.
+
+2. Changing the latest_movies.twig, popular_movies.twig and tv_series.twig files to work with this array by looping through it and adding the required html.
+
+3. Creating a common header and footer so that we can easily include them in multiple files and change them accordingly with php
+
+4. Adding search functionality
+
+5. Adding pagination feature
+
+
+
+These are the things that are required to complete this project! Lets do it!
